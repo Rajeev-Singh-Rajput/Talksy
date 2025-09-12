@@ -1,12 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
-  "type":"module",
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
@@ -15,10 +16,11 @@
     "cloudinary": "^2.7.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0",
+    "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.1",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "talksy": "file:.."
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
